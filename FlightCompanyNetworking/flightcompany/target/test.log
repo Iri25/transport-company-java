@@ -1,0 +1,84 @@
+07 apr. 2021 14:50:27,190 TRACE repository.jdbc.UserJdbcRepository 56 findAll - Enter
+07 apr. 2021 14:50:27,196 TRACE repository.jdbc.JdbcUtils 54 getConnection - Enter
+07 apr. 2021 14:50:27,197 TRACE repository.jdbc.JdbcUtils 22 getNewConnection - Enter
+07 apr. 2021 14:50:27,198 INFO  repository.jdbc.JdbcUtils 29 getNewConnection - Trying to connect to database null
+07 apr. 2021 14:50:27,199 INFO  repository.jdbc.JdbcUtils 30 getNewConnection - User: null
+07 apr. 2021 14:50:27,200 INFO  repository.jdbc.JdbcUtils 31 getNewConnection - Password: null
+07 apr. 2021 14:50:27,205 ERROR repository.jdbc.JdbcUtils 47 getNewConnection - java.sql.SQLException: The url cannot be null
+07 apr. 2021 14:50:27,206 TRACE repository.jdbc.JdbcUtils 63 getConnection - Exit
+07 apr. 2021 14:52:24,815 TRACE repository.jdbc.UserJdbcRepository 56 findAll - Enter
+07 apr. 2021 14:52:24,825 TRACE repository.jdbc.JdbcUtils 54 getConnection - Enter
+07 apr. 2021 14:52:24,825 TRACE repository.jdbc.JdbcUtils 22 getNewConnection - Enter
+07 apr. 2021 14:52:24,828 INFO  repository.jdbc.JdbcUtils 29 getNewConnection - Trying to connect to database jdbc:sqlite://C://Users//HP//Desktop//Database//flightcompany.db
+07 apr. 2021 14:52:24,829 INFO  repository.jdbc.JdbcUtils 30 getNewConnection - User: test
+07 apr. 2021 14:52:24,832 INFO  repository.jdbc.JdbcUtils 31 getNewConnection - Password: null
+07 apr. 2021 14:52:25,900 TRACE repository.jdbc.JdbcUtils 63 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@715b7e00)
+07 apr. 2021 14:52:25,908 TRACE repository.jdbc.UserJdbcRepository 78 findAll - Exit with([User{id=1, username='admin', password='admin'}])
+07 apr. 2021 14:52:26,039 TRACE repository.jdbc.FlightJdbcRepository 59 findAll - Enter
+07 apr. 2021 14:52:26,039 TRACE repository.jdbc.JdbcUtils 54 getConnection - Enter
+07 apr. 2021 14:52:26,040 TRACE repository.jdbc.JdbcUtils 22 getNewConnection - Enter
+07 apr. 2021 14:52:26,040 INFO  repository.jdbc.JdbcUtils 29 getNewConnection - Trying to connect to database jdbc:sqlite://C://Users//HP//Desktop//Database//flightcompany.db
+07 apr. 2021 14:52:26,041 INFO  repository.jdbc.JdbcUtils 30 getNewConnection - User: test
+07 apr. 2021 14:52:26,042 INFO  repository.jdbc.JdbcUtils 31 getNewConnection - Password: null
+07 apr. 2021 14:52:26,043 TRACE repository.jdbc.JdbcUtils 63 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@33b0f07f)
+07 apr. 2021 14:52:26,065 TRACE repository.jdbc.FlightJdbcRepository 83 findAll - Exit with([Flight{id=1, destination='Sibiu', departureDate='2021-03-26', departureTime='12:00', airport='Baneasa', numberOfSeats=30}, Flight{id=2, destination='Bucuresti', departureDate='2021-03-28', departureTime='16:30', airport='International', numberOfSeats=50}])
+07 apr. 2021 14:54:09,179 TRACE repository.jdbc.FlightJdbcRepository 59 findAll - Enter
+07 apr. 2021 14:54:09,180 TRACE repository.jdbc.JdbcUtils 54 getConnection - Enter
+07 apr. 2021 14:54:09,181 TRACE repository.jdbc.JdbcUtils 63 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@33b0f07f)
+07 apr. 2021 14:54:09,182 TRACE repository.jdbc.FlightJdbcRepository 83 findAll - Exit with([Flight{id=1, destination='Sibiu', departureDate='2021-03-26', departureTime='12:00', airport='Baneasa', numberOfSeats=30}, Flight{id=2, destination='Bucuresti', departureDate='2021-03-28', departureTime='16:30', airport='International', numberOfSeats=50}])
+07 apr. 2021 14:54:11,295 TRACE repository.jdbc.FlightJdbcRepository 59 findAll - Enter
+07 apr. 2021 14:54:11,295 TRACE repository.jdbc.JdbcUtils 54 getConnection - Enter
+07 apr. 2021 14:54:11,296 TRACE repository.jdbc.JdbcUtils 63 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@33b0f07f)
+07 apr. 2021 14:54:11,297 TRACE repository.jdbc.FlightJdbcRepository 83 findAll - Exit with([Flight{id=1, destination='Sibiu', departureDate='2021-03-26', departureTime='12:00', airport='Baneasa', numberOfSeats=30}, Flight{id=2, destination='Bucuresti', departureDate='2021-03-28', departureTime='16:30', airport='International', numberOfSeats=50}])
+07 apr. 2021 14:54:13,647 TRACE repository.jdbc.FlightJdbcRepository 59 findAll - Enter
+07 apr. 2021 14:54:13,648 TRACE repository.jdbc.JdbcUtils 54 getConnection - Enter
+07 apr. 2021 14:54:13,648 TRACE repository.jdbc.JdbcUtils 63 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@33b0f07f)
+07 apr. 2021 14:54:13,649 TRACE repository.jdbc.FlightJdbcRepository 83 findAll - Exit with([Flight{id=1, destination='Sibiu', departureDate='2021-03-26', departureTime='12:00', airport='Baneasa', numberOfSeats=30}, Flight{id=2, destination='Bucuresti', departureDate='2021-03-28', departureTime='16:30', airport='International', numberOfSeats=50}])
+07 apr. 2021 14:54:24,271 TRACE repository.jdbc.FlightJdbcRepository 59 findAll - Enter
+07 apr. 2021 14:54:24,271 TRACE repository.jdbc.JdbcUtils 54 getConnection - Enter
+07 apr. 2021 14:54:24,272 TRACE repository.jdbc.JdbcUtils 63 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@33b0f07f)
+07 apr. 2021 14:54:24,273 TRACE repository.jdbc.FlightJdbcRepository 83 findAll - Exit with([Flight{id=1, destination='Sibiu', departureDate='2021-03-26', departureTime='12:00', airport='Baneasa', numberOfSeats=30}, Flight{id=2, destination='Bucuresti', departureDate='2021-03-28', departureTime='16:30', airport='International', numberOfSeats=50}])
+07 apr. 2021 14:54:24,274 TRACE repository.jdbc.TicketJdbcRepository 59 findAll - Enter
+07 apr. 2021 14:54:24,274 TRACE repository.jdbc.JdbcUtils 54 getConnection - Enter
+07 apr. 2021 14:54:24,274 TRACE repository.jdbc.JdbcUtils 22 getNewConnection - Enter
+07 apr. 2021 14:54:24,275 INFO  repository.jdbc.JdbcUtils 29 getNewConnection - Trying to connect to database jdbc:sqlite://C://Users//HP//Desktop//Database//flightcompany.db
+07 apr. 2021 14:54:24,275 INFO  repository.jdbc.JdbcUtils 30 getNewConnection - User: test
+07 apr. 2021 14:54:24,276 INFO  repository.jdbc.JdbcUtils 31 getNewConnection - Password: null
+07 apr. 2021 14:54:24,277 TRACE repository.jdbc.JdbcUtils 63 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@659a4840)
+07 apr. 2021 14:54:24,293 TRACE repository.jdbc.TicketJdbcRepository 84 findAll - Exit with([Ticket{id=1, clientName='Dari', touristsName='Teo', clientAddress='Cluj', numberOfSeats=2, idFlight=1}, Ticket{id=2, clientName='Mira', touristsName='Teodor', clientAddress='Turda', numberOfSeats=2, idFlight=1}, Ticket{id=3, clientName='Alexander', touristsName='Andrew, Erik', clientAddress='Sibiu', numberOfSeats=3, idFlight=2}])
+08 apr. 2021 13:16:19,936 TRACE repository.jdbc.UserJdbcRepository 56 findAll - Enter
+08 apr. 2021 13:16:20,109 TRACE repository.jdbc.JdbcUtils 54 getConnection - Enter
+08 apr. 2021 13:16:20,110 TRACE repository.jdbc.JdbcUtils 22 getNewConnection - Enter
+08 apr. 2021 13:16:20,113 INFO  repository.jdbc.JdbcUtils 29 getNewConnection - Trying to connect to database jdbc:sqlite://C://Users//HP//Desktop//Database//flightcompany.db
+08 apr. 2021 13:16:20,115 INFO  repository.jdbc.JdbcUtils 30 getNewConnection - User: test
+08 apr. 2021 13:16:20,116 INFO  repository.jdbc.JdbcUtils 31 getNewConnection - Password: null
+08 apr. 2021 13:16:20,584 TRACE repository.jdbc.JdbcUtils 63 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7a5456f7)
+08 apr. 2021 13:16:20,592 TRACE repository.jdbc.UserJdbcRepository 78 findAll - Exit with([User{id=1, username='admin', password='admin'}])
+08 apr. 2021 13:16:20,765 TRACE repository.jdbc.FlightJdbcRepository 59 findAll - Enter
+08 apr. 2021 13:16:20,766 TRACE repository.jdbc.JdbcUtils 54 getConnection - Enter
+08 apr. 2021 13:16:20,766 TRACE repository.jdbc.JdbcUtils 22 getNewConnection - Enter
+08 apr. 2021 13:16:20,766 INFO  repository.jdbc.JdbcUtils 29 getNewConnection - Trying to connect to database jdbc:sqlite://C://Users//HP//Desktop//Database//flightcompany.db
+08 apr. 2021 13:16:20,767 INFO  repository.jdbc.JdbcUtils 30 getNewConnection - User: test
+08 apr. 2021 13:16:20,767 INFO  repository.jdbc.JdbcUtils 31 getNewConnection - Password: null
+08 apr. 2021 13:16:20,769 TRACE repository.jdbc.JdbcUtils 63 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@456207b8)
+08 apr. 2021 13:16:20,788 TRACE repository.jdbc.FlightJdbcRepository 83 findAll - Exit with([Flight{id=1, destination='Sibiu', departureDate='2021-03-26', departureTime='12:00', airport='Baneasa', numberOfSeats=30}, Flight{id=2, destination='Bucuresti', departureDate='2021-03-28', departureTime='16:30', airport='International', numberOfSeats=50}])
+08 apr. 2021 13:16:29,946 TRACE repository.jdbc.FlightJdbcRepository 59 findAll - Enter
+08 apr. 2021 13:16:29,947 TRACE repository.jdbc.JdbcUtils 54 getConnection - Enter
+08 apr. 2021 13:16:29,947 TRACE repository.jdbc.JdbcUtils 63 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@456207b8)
+08 apr. 2021 13:16:29,949 TRACE repository.jdbc.FlightJdbcRepository 83 findAll - Exit with([Flight{id=1, destination='Sibiu', departureDate='2021-03-26', departureTime='12:00', airport='Baneasa', numberOfSeats=30}, Flight{id=2, destination='Bucuresti', departureDate='2021-03-28', departureTime='16:30', airport='International', numberOfSeats=50}])
+08 apr. 2021 13:16:29,950 TRACE repository.jdbc.TicketJdbcRepository 59 findAll - Enter
+08 apr. 2021 13:16:29,951 TRACE repository.jdbc.JdbcUtils 54 getConnection - Enter
+08 apr. 2021 13:16:29,951 TRACE repository.jdbc.JdbcUtils 22 getNewConnection - Enter
+08 apr. 2021 13:16:29,952 INFO  repository.jdbc.JdbcUtils 29 getNewConnection - Trying to connect to database jdbc:sqlite://C://Users//HP//Desktop//Database//flightcompany.db
+08 apr. 2021 13:16:29,952 INFO  repository.jdbc.JdbcUtils 30 getNewConnection - User: test
+08 apr. 2021 13:16:29,953 INFO  repository.jdbc.JdbcUtils 31 getNewConnection - Password: null
+08 apr. 2021 13:16:29,955 TRACE repository.jdbc.JdbcUtils 63 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5ccb4f2c)
+08 apr. 2021 13:16:29,968 TRACE repository.jdbc.TicketJdbcRepository 84 findAll - Exit with([Ticket{id=1, clientName='Dari', touristsName='Teo', clientAddress='Cluj', numberOfSeats=2, idFlight=1}, Ticket{id=2, clientName='Mira', touristsName='Teodor', clientAddress='Turda', numberOfSeats=2, idFlight=1}, Ticket{id=3, clientName='Alexander', touristsName='Andrew, Erik', clientAddress='Sibiu', numberOfSeats=3, idFlight=2}])
+08 apr. 2021 13:16:47,856 TRACE repository.jdbc.FlightJdbcRepository 59 findAll - Enter
+08 apr. 2021 13:16:47,857 TRACE repository.jdbc.JdbcUtils 54 getConnection - Enter
+08 apr. 2021 13:16:47,857 TRACE repository.jdbc.JdbcUtils 63 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@456207b8)
+08 apr. 2021 13:16:47,859 TRACE repository.jdbc.FlightJdbcRepository 83 findAll - Exit with([Flight{id=1, destination='Sibiu', departureDate='2021-03-26', departureTime='12:00', airport='Baneasa', numberOfSeats=30}, Flight{id=2, destination='Bucuresti', departureDate='2021-03-28', departureTime='16:30', airport='International', numberOfSeats=50}])
+08 apr. 2021 13:16:47,859 TRACE repository.jdbc.TicketJdbcRepository 59 findAll - Enter
+08 apr. 2021 13:16:47,860 TRACE repository.jdbc.JdbcUtils 54 getConnection - Enter
+08 apr. 2021 13:16:47,860 TRACE repository.jdbc.JdbcUtils 63 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5ccb4f2c)
+08 apr. 2021 13:16:47,861 TRACE repository.jdbc.TicketJdbcRepository 84 findAll - Exit with([Ticket{id=1, clientName='Dari', touristsName='Teo', clientAddress='Cluj', numberOfSeats=2, idFlight=1}, Ticket{id=2, clientName='Mira', touristsName='Teodor', clientAddress='Turda', numberOfSeats=2, idFlight=1}, Ticket{id=3, clientName='Alexander', touristsName='Andrew, Erik', clientAddress='Sibiu', numberOfSeats=3, idFlight=2}])

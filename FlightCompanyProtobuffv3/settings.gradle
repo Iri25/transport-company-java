@@ -1,0 +1,8 @@
+rootProject.name = 'FlightCompanyProtobuffv3'
+include 'model'
+include 'persistence'
+include 'services'
+include 'client'
+include 'networking'
+include 'server'
+

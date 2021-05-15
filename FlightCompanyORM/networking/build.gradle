@@ -1,0 +1,22 @@
+plugins {
+    id 'java'
+}
+
+group 'mpp-proiect-repository-Iri25.git'
+version '1.0'
+
+sourceCompatibility = 11
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile project (':model')
+
+    compile project (':services')
+
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+
+    compile 'org.hibernate:hibernate-core:5.2.10.Final'
+}

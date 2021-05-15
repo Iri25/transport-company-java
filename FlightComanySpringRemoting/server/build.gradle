@@ -1,0 +1,24 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group 'mpp-proiect-repository-Iri25.git'
+version '1.0'
+
+sourceCompatibility = 11
+mainClassName='StartServer'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile project (':model')
+    compile project (':persistence')
+    compile project (':services')
+
+    compile 'org.springframework:spring-context:5.0.4.RELEASE'
+
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}

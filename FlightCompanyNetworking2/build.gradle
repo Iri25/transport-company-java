@@ -1,0 +1,20 @@
+plugins {
+    id 'java'
+    id 'application'
+    id 'org.openjfx.javafxplugin' version '0.0.9'
+}
+
+group 'mpp-proiect-repository-Iri25'
+version '1.0'
+
+sourceCompatibility = 11
+mainClassName='Main'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    //compile project ('flightcompany')
+    compile project ('server')
+}

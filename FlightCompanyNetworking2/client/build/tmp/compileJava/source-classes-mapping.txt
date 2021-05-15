@@ -1,0 +1,63 @@
+controller/LoginController.java
+ controller.LoginController
+networking/NotifyServerRequest.java
+ networking.NotifyServerRequest
+networking/BuyTicketRequest.java
+ networking.BuyTicketRequest
+utils/events/ChangeEventType.java
+ utils.events.ChangeEventType
+domain/validators/TicketValidator.java
+ domain.validators.TicketValidator
+domain/validators/Validator.java
+ domain.validators.Validator
+utils/events/Event.java
+ utils.events.Event
+networking/LogoutRequest.java
+ networking.LogoutRequest
+domain/Flight.java
+ domain.Flight
+networking/GetSeatsAvailableRequest.java
+ networking.GetSeatsAvailableRequest
+networking/Response.java
+ networking.Response
+domain/validators/ValidationException.java
+ domain.validators.ValidationException
+domain/validators/UserValidator.java
+ domain.validators.UserValidator
+networking/LoginRequest.java
+ networking.LoginRequest
+domain/validators/FlightValidator.java
+ domain.validators.FlightValidator
+controller/MenuController.java
+ controller.MenuController
+Client.java
+ Client
+domain/Ticket.java
+ domain.Ticket
+domain/SearchFlightsDTO.java
+ domain.SearchFlightsDTO
+networking/Request.java
+ networking.Request
+networking/GetSeatsAvailableUpdateRequest.java
+ networking.GetSeatsAvailableUpdateRequest
+controller/MessageAlert.java
+ controller.MessageAlert
+networking/GetAllFlightsRequest.java
+ networking.GetAllFlightsRequest
+networking/Proxy.java
+ networking.Proxy
+ networking.Proxy$Reader
+utils/observer/Observer.java
+ utils.observer.Observer
+ClientFX.java
+ ClientFX
+networking/SearchFlightsRequest.java
+ networking.SearchFlightsRequest
+domain/Entity.java
+ domain.Entity
+domain/User.java
+ domain.User
+utils/observer/Observable.java
+ utils.observer.Observable
+domain/UserDTO.java
+ domain.UserDTO

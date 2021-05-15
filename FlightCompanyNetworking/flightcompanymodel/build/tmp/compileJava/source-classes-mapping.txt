@@ -1,0 +1,18 @@
+model/Entity.java
+ model.Entity
+model/Ticket.java
+ model.Ticket
+model/User.java
+ model.User
+model/validators/Validator.java
+ model.validators.Validator
+model/validators/ValidationException.java
+ model.validators.ValidationException
+model/Flight.java
+ model.Flight
+model/validators/FlightValidator.java
+ model.validators.FlightValidator
+model/validators/UserValidator.java
+ model.validators.UserValidator
+model/validators/TicketValidator.java
+ model.validators.TicketValidator

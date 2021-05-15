@@ -1,0 +1,9 @@
+rootProject.name = 'mpp-proiect-repository-Iri25.git'
+include 'flightcompany'
+include 'flightcompanymodel'
+include 'flightcompanypersistence'
+include 'flightcompanyservices'
+include 'flightcompanynetworking'
+include 'flightcompanyserver'
+include 'flightcompanyclient'
+

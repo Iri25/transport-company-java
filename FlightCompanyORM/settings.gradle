@@ -1,0 +1,8 @@
+rootProject.name = 'FlightCompanyORM'
+include 'server'
+include 'model'
+include 'persistence'
+include 'services'
+include 'client'
+include 'networking'
+

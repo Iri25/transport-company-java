@@ -1,0 +1,55 @@
+syntax="proto3";
+package protocol;
+
+//option java_package = "network.protobuffprotocol";
+//option java_outer_classname = "Protobufs";
+
+message User {
+    string username = 1;
+    string password = 2;
+}
+
+message Flight {
+    string destination = 1;
+    string departureDate = 2;
+    string departureTime = 3;
+    string airport = 4;
+    string numberOfSeats = 5;
+    string numberOfSeatsAvailable = 6;
+}
+
+message Ticket {
+    string clientName = 1;
+    string touristsName = 2;
+    string clientAddress = 3;
+    string numberOfSeats = 4;
+    string idFlight = 5;
+}
+
+message FlightCompanyRequest {
+    enum Type {
+        Unknown = 0; LOGGED_IN = 1; LOGGED_OUT = 2; SEARCH = 3; BUY = 4;
+    }
+
+    Type type = 1;
+
+    oneof payload {
+        User user = 2;
+        Flight flight = 3;
+        Ticket ticket = 4;
+    }
+}
+
+message FlightCompanyResponse {
+    enum Type {
+        Unknown = 0; OK = 1; ERROR = 2; LOGIN = 3; LOGOUT = 4; SEARCH = 5; BUY = 6;
+    }
+
+    Type type = 1;
+
+    oneof payload {
+        User user = 2;
+        Flight flight = 3;
+        Ticket ticket = 4;
+    }
+}

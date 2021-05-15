@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
+
+    <util:properties id="jdbcProps" location="classpath:app.config"/>
+
+    <bean id="userRepository" class="repository.jdbc.UserJdbcRepository">
+        <constructor-arg ref="jdbcProps" />
+    </bean>
+
+    <bean id="flightRepository" class="repository.jdbc.FlightJdbcRepository">
+        <constructor-arg ref="jdbcProps" />
+    </bean>
+    <bean id="ticketRepository" class="repository.jdbc.TicketJdbcRepository">
+        <constructor-arg ref="jdbcProps" />
+    </bean>
+
+    <bean id="serv" class="server.Server">
+        <constructor-arg ref="userRepository"/>
+        <constructor-arg ref="flightRepository"/>
+        <constructor-arg ref="ticketRepository"/>
+    </bean>
+
+    <bean class="org.springframework.remoting.rmi.RmiServiceExporter">
+        <property name="serviceName" value="FlightCompany"/>
+        <property name="service" ref="serv"/>
+        <property name="serviceInterface" value="service.IServices"/>
+        <property name="servicePort" value="1099"/>
+    </bean>
+
+
+
+</beans>

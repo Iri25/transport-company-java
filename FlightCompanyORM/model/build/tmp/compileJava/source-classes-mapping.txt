@@ -1,0 +1,26 @@
+domain/Flight.java
+ domain.Flight
+domain/validators/ValidationException.java
+ domain.validators.ValidationException
+domain/validators/TicketValidator.java
+ domain.validators.TicketValidator
+domain/Ticket.java
+ domain.Ticket
+domain/validators/FlightValidator.java
+ domain.validators.FlightValidator
+domain/validators/Validator.java
+ domain.validators.Validator
+domain/Entity.java
+ domain.Entity
+domain/dto/FlightDTO.java
+ domain.dto.FlightDTO
+domain/dto/TicketDTO.java
+ domain.dto.TicketDTO
+domain/validators/UserValidator.java
+ domain.validators.UserValidator
+domain/dto/UserDTO.java
+ domain.dto.UserDTO
+domain/dto/UtilsDTO.java
+ domain.dto.UtilsDTO
+domain/User.java
+ domain.User

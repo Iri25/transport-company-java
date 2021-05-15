@@ -1,0 +1,20 @@
+plugins {
+    id 'java'
+}
+
+group 'mpp-proiect-repository-Iri25.git'
+version '1.0'
+
+sourceCompatibility = 11
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile project (':flightcompanymodel')
+
+    compile project (':flightcompanyservices')
+
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}

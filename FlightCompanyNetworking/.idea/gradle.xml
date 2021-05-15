@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/flightcompany" />
+            <option value="$PROJECT_DIR$/flightcompanyclient" />
+            <option value="$PROJECT_DIR$/flightcompanymodel" />
+            <option value="$PROJECT_DIR$/flightcompanynetworking" />
+            <option value="$PROJECT_DIR$/flightcompanypersistence" />
+            <option value="$PROJECT_DIR$/flightcompanyserver" />
+            <option value="$PROJECT_DIR$/flightcompanyservices" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
