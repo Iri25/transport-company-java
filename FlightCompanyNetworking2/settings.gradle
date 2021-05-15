@@ -1,5 +1,0 @@
-rootProject.name = 'mpp-proiect-repository-Iri25.git'
-include 'flightcompany'
-include 'server'
-include 'client'
-
