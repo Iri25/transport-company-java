@@ -1,0 +1,6 @@
+rootProject.name = 'FlightCompanyREST'
+include 'model'
+include 'persistence'
+include 'services'
+include 'client'
+
