@@ -1,0 +1,26 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group 'mpp-proiect-repository-Iri25.git'
+version '1.0'
+
+sourceCompatibility = 11
+mainClassName='service.MainRestServices'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile project (':model')
+
+    compile project (':persistence')
+
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '2.1.4.RELEASE'
+
+    testCompile group: 'org.springframework.boot', name: 'spring-boot-starter-test', version: '2.1.4.RELEASE'
+}
