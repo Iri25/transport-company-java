@@ -1,0 +1,6 @@
+client/restclient/exceptions/ServiceException.java
+ client.restclient.exceptions.ServiceException
+client/restclient/Client.java
+ client.restclient.Client
+client/MainRestClient.java
+ client.MainRestClient
