@@ -1,0 +1,24 @@
+.FlightApp {
+    text-align: center;
+    align-content: center;
+    color:rebeccapurple;
+}
+.FlightApp{
+    text-align: center;
+    font-family:'Times New Roman';
+    font-size: large;
+
+}
+.FlightTable{
+    text-align: center;
+    font-family: "Times New Roman";
+    font-size: medium;
+    color: mediumpurple;
+}
+.FlightApp-body{
+    align-content: center;
+}
+table.center {
+    margin-left:auto;
+    margin-right:auto;
+}
