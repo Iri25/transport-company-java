@@ -1,5 +1,7 @@
+#
+Application for a transport company. Several travel agencies use a airline to transport customers to different destinations tourist. Agencies use a software system to buy tickets for tourists. 
 
-Application for a transport company. Several travel agencies use a airline to transport customers to different destinations tourist. Agencies use a software system to buy tickets for tourists. Employees of agencies tourism use a desktop application with the following features:
+Employees of agencies tourism use a desktop application with the following features:
 1. Login - After successful authentication, a new window opens in which the information is displayed about flights (destination, date and time of departure, airport and available seat number).
 
 2. Search - After successful authentication, the employee can search for a flight by entering the destination and date departure. The application will display in another list / other table / etc. all flights to that destination, departure time and the number of seats available.
