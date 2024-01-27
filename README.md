@@ -2,7 +2,7 @@
 
 Java project containing several applications for a transport company with a graphical interface (GUI) developed in JavaFX.
 
-- Application with a 4-layered architecture: data access layer, persistence layer, business layer and presentation layer ([FlightCompanyApplication folder](https://github.com/Iri25/mpp-proiect-repository-Java-Iri25/tree/main/FlightCompanyApplication)).
+- Application with a layered architecture: data access layer, persistence layer, business layer and presentation layer ([FlightCompanyApplication folder](https://github.com/Iri25/mpp-proiect-repository-Java-Iri25/tree/main/FlightCompanyApplication)).
 - Application that implements the networking part using sockets and threads and notifies scientists when the data is updated ([FlightCompanyNetworking folder](https://github.com/Iri25/mpp-proiect-repository-Java-Iri25/tree/main/FlightCompanyNetworking)).
 - Application that implements REST services ([FlightCompanyREST folder](https://github.com/Iri25/mpp-proiect-repository-Java-Iri25/tree/main/FlightCompanyREST)).
 - Web application with React that uses REST services ([FlightCompanyREACT folder](https://github.com/Iri25/mpp-proiect-repository-Java-Iri25/tree/main/FlightCompanyREACT)).
